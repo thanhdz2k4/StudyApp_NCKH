@@ -1,4 +1,4 @@
-package com.example.nckh1
+package com.example.studyapp
 
 import android.view.LayoutInflater
 import android.view.View

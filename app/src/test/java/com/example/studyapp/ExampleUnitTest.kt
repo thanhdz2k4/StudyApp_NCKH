@@ -1,4 +1,4 @@
-package com.example.nckh1
+package com.example.studyapp
 
 import org.junit.Test
 

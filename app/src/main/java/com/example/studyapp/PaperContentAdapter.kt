@@ -1,10 +1,11 @@
-package com.example.nckh1
+package com.example.studyapp
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+
 
 class PaperContentAdapter: RecyclerView.Adapter<PaperContentAdapter.ViewHolder>() {
 

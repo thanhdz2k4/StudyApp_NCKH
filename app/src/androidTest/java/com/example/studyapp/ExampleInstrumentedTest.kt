@@ -1,4 +1,4 @@
-package com.example.nckh1
+package com.example.studyapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

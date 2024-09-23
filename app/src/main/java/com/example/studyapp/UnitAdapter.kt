@@ -1,4 +1,4 @@
-package com.example.nckh1
+package com.example.studyapp
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+
 
 class UnitAdapter: RecyclerView.Adapter<UnitAdapter.ViewHolder>() {
 

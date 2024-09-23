@@ -1,4 +1,4 @@
-package com.example.nckh1
+package com.example.studyapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,6 +9,7 @@ import android.widget.ImageButton
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.viewpager2.widget.ViewPager2
+
 
 class MainActivity : AppCompatActivity() {
 

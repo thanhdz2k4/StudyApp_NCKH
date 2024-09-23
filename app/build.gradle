@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.nckh1'
+    namespace 'com.example.studyapp'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.nckh1"
+        applicationId "com.example.studyapp"
         minSdk 24
         targetSdk 34
         versionCode 1
