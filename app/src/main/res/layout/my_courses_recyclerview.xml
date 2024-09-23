@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- My courses recycleview -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/cardview_border"
+    android:orientation="vertical">
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:text="My Courses"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <!-- RecyclerView chứa các khóa học -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCoursessss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <!-- Nút "Discover All Courses" ở dưới cùng -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DISCOVER ALL COURSES"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/green"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"/>
+
+</LinearLayout>

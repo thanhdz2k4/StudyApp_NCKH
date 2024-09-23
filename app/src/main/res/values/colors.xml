@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#029DF0</color>
+    <color name="ograne">#BD3500</color>
+    <color name="pur">#7F51DC</color>
+    <color name="green">#8DB641</color>
+    <color name="nav_black">#33363B</color>
+    <color name="my_light_primary">#FF6200EE</color> <!-- Example color -->
+    <color name="my_light_background">#FFFFFF</color> <!-- White background -->
+    <color name="my_light_on_background">#EFEEF3</color> <!-- Black text on background -->
+    <color name="cardview_border">#EDEDED</color>
+    <color name="test">#C2C2C2</color>
+</resources>

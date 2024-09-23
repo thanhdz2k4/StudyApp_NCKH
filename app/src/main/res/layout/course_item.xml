@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Course Item -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white">
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/cardview_border">
+
+        <!-- Biểu tượng khóa học -->
+        <FrameLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circular_course_button" />
+
+            <TextView
+                android:id="@+id/item_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C++"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <!-- Tên khóa học -->
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Introduction to C++"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NCKH1</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="content"><b>C</b> is a general-purpose programming language that has been around for nearly 50 years.\n\n<b>C</b> has been used to write everything from operating systems (including Windows and many others) to complex programs like the Python interpreter, Git, Oracle, database, and more."</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn ="navigation_view">
+
+    <!-- Optional Header for Branding -->
+
+
+    <!-- First group with a divider and checkable behavior -->
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/Nav_Sololearn_PRO"
+            android:icon="@drawable/monarch"
+            android:title="Sololearn PRO" />
+
+        <item
+            android:id="@+id/Nav_Leardboard"
+            android:icon="@drawable/trophy"
+            android:title="Leaderboard" />
+
+        <item
+            android:id="@+id/Nav_Invite_Friends"
+            android:icon="@drawable/invite"
+            android:title="Invite Friends"
+            android:iconTint="?attr/colorPrimary" />
+
+        <item
+            android:id="@+id/Nav_Rate"
+            android:icon="@drawable/star"
+            android:title="Rate" />
+
+        <item
+            android:id="@+id/Nav_Feedback"
+            android:icon="@drawable/feedback"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/Nav_Settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+    </group>
+
+</menu>
