@@ -11,5 +11,5 @@
     <color name="my_light_background">#FFFFFF</color> <!-- White background -->
     <color name="my_light_on_background">#EFEEF3</color> <!-- Black text on background -->
     <color name="cardview_border">#EDEDED</color>
-    <color name="test">#C2C2C2</color>
+    <color name="test">#3CAD18</color>
 </resources>
